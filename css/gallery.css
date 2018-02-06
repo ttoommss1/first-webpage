@@ -1,0 +1,212 @@
+html, body{
+	height: 100%;
+	background: linear-gradient(#111, #777);
+	background-attachment: fixed;
+}	
+
+.mainbox{
+	font-family: sans-serif;
+	background-color: red;
+	width: 800px;
+	margin: 0 auto;
+	height: 100%;
+	display: table;
+}
+
+.left{
+	background-color: #fede00;
+	width: 100px;
+	float: left;
+	height: 100%;
+}
+
+.right{
+	background-color: #fede00;
+	width: 100px;
+	float: left;
+	height: 100%;
+}
+
+.right img{
+	width: 100px;
+}
+
+.main{
+	background-color: #313131;
+	color: #fede00;
+	width: 580px;
+	float: left;
+	height: 100%;
+	padding: 10px;
+}
+
+.gallery {
+	width: 280px;
+	float: left;
+	margin: 5px;
+}
+
+.gallery img{
+	width: 100%;
+}
+
+.gallery .description{
+	text-align: center;
+}
+
+.gallery_name{
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.footer{
+	background-color: #262626;
+	clear: both;
+	text-align: center;
+	color: #fede00;
+}
+
+.menu{
+	height: 45px;
+	text-align: center;
+	background-color: #262626;
+}
+
+.navbar li a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #000;
+}
+
+.navbar li a:hover{
+	color: gray;
+}
+
+.navbar li{
+	list-style-type: none;
+	display: inline;
+	padding: 10px;
+	background-color: #fede00;
+}
+
+.navbar{
+	background-color: #262626;
+	position: relative;
+	top:15px;
+}
+
+.logo{
+	background-color: #fede00;
+}
+
+.raksts {
+	padding-bottom: 20px;
+}
+
+.raksts a{
+	text-decoration: none;
+}
+
+.virsraksts{
+	text-decoration: none;
+	padding-bottom: 5px;
+	font-size: 30px;
+	font-weight: bold;
+	color: #fede00;
+}
+
+.selection li{
+	list-style-type: none;
+	padding: 10px;
+	display: block;
+}
+
+.selection li a{
+	text-decoration: none;
+	color: #000;
+}
+
+.selection li a:hover{
+	color:gray;
+}
+
+iframe{
+	width: 540px;
+	height: 305px;
+	margin: 20px;
+}
+
+@media screen and (max-width: 480px){
+	.mainbox, .logo ,.menu ,.main{
+		width: 100%;
+	}
+
+	.left, .right{
+		width: 100%;
+		height: 100px;
+	}
+
+	.menu{
+		height: 154px;
+	}
+
+	.navbar{
+		height: 100px;
+		top: 5px;
+	}
+
+	.main{
+		padding: 0px;
+	}
+
+	.logo img, .raksts img{
+		width: 100%;
+		height: initial;
+	}
+
+	.navbar li{
+		display: block;
+	}
+
+	.left{
+		text-align: center;
+		height: 78px;
+	}
+
+	.right img{
+		display: none;
+	}
+
+	.selection li a{
+		text-decoration: none;
+		color: #000;
+	}
+
+	.selction li a:hover{
+		color: red;
+	}
+
+	.selection li{
+		list-style-type: none;
+		display: block;
+		padding: 10px;
+	}
+
+	.selection{
+		position: relative;
+		top:3px;
+	}
+
+	.gallery{
+		display: block;
+		margin-left: 5%;
+		margin-right: 5%;
+		width: 90%;
+	}
+
+	iframe{
+		width: 90%;
+		margin: 5%; 
+	}
+}

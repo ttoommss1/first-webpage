@@ -1,0 +1,152 @@
+html, body{
+	height: 100%;
+	background: linear-gradient(#111, #777);
+	background-attachment: fixed;
+}	
+
+.mainbox{
+	font-family: sans-serif;
+	background-color: red;
+	width: 800px;
+	margin: 0 auto;
+	height: 100%;
+	display: table;
+}
+
+.right, .left{
+	background-color: #fede00;
+	width: 100px;
+	float: left;
+	height: 100%;
+}
+
+.right img, .left img{
+	width: 100px;
+}
+
+.main{
+	background-color: #313131;
+	color: #fede00;
+	width: 580px;
+	float: left;
+	height: 100%;
+	padding: 10px;
+}
+
+.main div{
+	padding: 10px;
+}
+
+.main a{
+	text-decoration: underline;
+	color: #fede00;
+	font-weight: bold;
+}
+
+.footer{
+	background-color: #262626;
+	clear: both;
+	text-align: center;
+	color: #fede00;
+}
+
+.menu{
+	height: 45px;
+	text-align: center;
+	background-color: #262626;
+}
+
+.navbar li a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #000;
+}
+
+.navbar li a:hover{
+	color: gray;
+}
+
+.navbar li{
+	list-style-type: none;
+	display: inline;
+	padding: 10px;
+	background-color: #fede00;
+}
+
+.navbar{
+	background-color: #262626;
+	position: relative;
+	top:15px;
+}
+
+.logo{
+	background-color: #fede00;
+}
+
+.raksts {
+	padding-bottom: 20px;
+}
+
+.raksts a{
+	text-decoration: none;
+}
+
+.virsraksts{
+	text-align: center;
+	text-decoration: none;
+	padding-bottom: 5px;
+	font-size: 30px;
+	font-weight: bold;
+	color: #fede00;
+}
+
+input, select, textarea{
+	margin-left: 10px; 
+}
+
+@media screen and (max-width: 480px){
+	.mainbox, .logo ,.menu ,.main{
+		width: 100%;
+	}
+
+	.left, .right{
+		width: 100%;
+		height: 100px;
+	}
+
+	.left img, .right img{
+		display: none;
+	}
+
+	.menu{
+		height: 154px;
+	}
+
+	.navbar{
+		height: 100px;
+		top: 5px;
+	}
+
+	.main{
+		padding: 0px;
+	}
+
+	.logo img, .raksts img{
+		width: 100%;
+		height: initial;
+	}
+
+	.navbar li{
+		display: block;
+	}
+
+	iframe{
+		width: 90%;
+		margin: 5%;
+	}
+
+	select{
+		width: 235px;
+	}
+
+}
