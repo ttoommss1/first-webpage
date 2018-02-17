@@ -1,2 +1,3 @@
 Test
+New second line
 Second line
