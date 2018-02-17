@@ -1,7 +1,6 @@
 html, body{
 	height: 100%;
-	background: linear-gradient(#111, #777);
-	background-attachment: fixed;
+	background: linear-gradient(#111, #777) fixed;
 }	
 
 .mainbox{
@@ -128,7 +127,7 @@ input, select, textarea{
 	}
 
 	.main{
-		padding: 0px;
+		padding: 0;
 	}
 
 	.logo img, .raksts img{
