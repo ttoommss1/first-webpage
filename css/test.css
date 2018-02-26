@@ -1,0 +1,128 @@
+html, body {
+  height: 100%;
+  background: linear-gradient(#111, #777) fixed; }
+
+.mainbox {
+  font-family: sans-serif;
+  background-color: red;
+  width: 800px;
+  margin: 0 auto;
+  height: 100%;
+  display: table; }
+
+.right, .left {
+  background-color: #fede00;
+  width: 100px;
+  float: left;
+  height: 100%; }
+  .right img, .left img {
+    width: 100px; }
+
+.main {
+  background-color: #313131;
+  color: #fede00;
+  width: 580px;
+  float: left;
+  height: 100%;
+  padding: 10px; }
+  .main a {
+    text-decoration: underline;
+    color: #fede00;
+    font-weight: bold; }
+
+.footer {
+  background-color: #262626;
+  clear: both;
+  text-align: center;
+  color: #fede00; }
+
+.menu {
+  height: 45px;
+  text-align: center;
+  background-color: #262626; }
+
+.navbar {
+  background-color: #262626;
+  position: relative;
+  top: 15px; }
+  .navbar li {
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+    background-color: #fede00; }
+    .navbar li a {
+      text-decoration: none;
+      font-weight: bold;
+      color: #000; }
+      .navbar li a:hover {
+        color: gray; }
+
+.logo {
+  background-color: #fede00; }
+
+.article {
+  padding-bottom: 20px; }
+  .article a {
+    text-decoration: none;
+    padding-bottom: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fede00; }
+  .article img {
+    width: 580px;
+    height: initial; }
+
+.title {
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+  font-weight: bold; }
+
+.text {
+  font-size: 20px;
+  font-weight: normal; }
+
+.article_images {
+  width: 540px;
+  padding: 20px; }
+
+@media screen and (max-width: 480px) {
+  .mainbox, .logo, .menu, .main {
+    width: 100%; }
+
+  .left, .right {
+    width: 100%;
+    height: 100px; }
+    .left img, .right img {
+      display: none; }
+
+  .menu {
+    height: 154px; }
+
+  .navbar {
+    height: 100px;
+    top: 5px; }
+    .navbar li {
+      display: block; }
+
+  .main {
+    padding: 0; }
+
+  .logo img {
+    width: 100%;
+    height: initial; }
+
+  .article img {
+    width: 90%;
+    padding: 5%; }
+
+  .article_images {
+    width: 90%;
+    height: initial;
+    padding: 0;
+    margin: 5%; }
+
+  .text {
+    padding: 10px; } }
+
+/*# sourceMappingURL=test.css.map */
